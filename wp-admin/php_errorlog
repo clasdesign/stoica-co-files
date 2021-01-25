@@ -1,0 +1,19 @@
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(core/core.php): failed to open stream: No such file or directory in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 28
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(): Failed opening 'core/core.php' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 28
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(core/locations.php): failed to open stream: No such file or directory in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 29
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(): Failed opening 'core/locations.php' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 29
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(core/group.php): failed to open stream: No such file or directory in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 30
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(): Failed opening 'core/group.php' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 30
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(core/field.php): failed to open stream: No such file or directory in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 31
+[21-Jan-2021 15:39:29 UTC] PHP Warning:  include(): Failed opening 'core/field.php' for inclusion (include_path='.:/usr/local/php73/pear') in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 31
+[21-Jan-2021 15:39:29 UTC] PHP Fatal error:  Uncaught Error: Class 'ACFTC_Core' not found in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php:42
+Stack trace:
+#0 /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php(47): acftc()
+#1 /home/customer/www/new-website.stoica.co/public_html/wp-settings.php(388): include_once('/home/customer/...')
+#2 /home/customer/www/new-website.stoica.co/public_html/wp-config.php(78): require_once('/home/customer/...')
+#3 /home/customer/www/new-website.stoica.co/public_html/wp-load.php(37): require_once('/home/customer/...')
+#4 /home/customer/www/new-website.stoica.co/public_html/wp-admin/admin-ajax.php(22): require_once('/home/customer/...')
+#5 {main}
+  thrown in /home/customer/www/new-website.stoica.co/public_html/wp-content/plugins/acf-theme-code-pro/acf_theme_code_pro.php on line 42
+[23-Jan-2021 20:59:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/new-website.stoica.co/public_html/wp-content/themes/understrap-master/inc/sections.php on line 1141
+[23-Jan-2021 20:59:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/new-website.stoica.co/public_html/wp-content/themes/understrap-master/inc/sections.php on line 1141
